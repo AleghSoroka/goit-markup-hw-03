@@ -96,14 +96,15 @@ img {
   flex-basis: calc(100% - var(--gap) * (var(--items - 1)) / var(--items));
 }
 /* ============================================= */
-.address-link {
+.address {
   display: flex;
-
   font-style: normal;
 }
 .header-nav {
   display: flex;
   align-items: center;
+  /* Added after homework control system */
+  border-bottom: 1px solid #e7e9fc;
 }
 .header-logo {
   display: block;
@@ -195,6 +196,8 @@ img {
 
 .footer {
   background-color: var(--navy-blue);
+  /* Added after homework control system */
+  padding: 100px 0;
 }
 .footer-studio {
   color: var(--cloud);
@@ -214,6 +217,9 @@ img {
 .footer-logo {
   display: block;
   padding-top: 101.5px;
+  /* Added after homework control system */
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .order-button {
   color: var(--white);
@@ -228,6 +234,12 @@ img {
   margin-left: auto;
   margin-right: auto;
   padding: 16px 32px;
+  /* Added after homework control system */
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .order-button:hover,
@@ -239,7 +251,7 @@ img {
 
 .container.hero {
   height: 600px;
-  margin-bottom: 188px;
+  /* margin-bottom: 188px; */
 }
 .hero-section {
   background-color: var(--grey);
@@ -257,7 +269,14 @@ img {
   padding-top: 188px;
   padding-bottom: 48px;
   margin: 0 auto;
+  /* Added after homework control system */
+  max-width: 496px;
 }
+.section-whatwedo {
+  /* Added after homework control system */
+  padding-bottom: 120px;
+}
+
 .section-whatwedo-title {
   text-transform: capitalize;
   font-family: Roboto, sans-serif;
@@ -267,9 +286,13 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--navy-blue);
+  /* Added after homework control system */
+  margin-bottom: 72px;
 }
 .section-team {
   background-color: var(--cloud);
+  /* Added after homework control system */
+  padding: 120px 0;
 }
 .section-team-title {
   text-transform: capitalize;
@@ -280,6 +303,8 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--grey);
+  /* Added after homework control system */
+  margin-bottom: 72px;
 }
 .personal-card {
   border-radius: 0px 0px 4px 4px;
@@ -295,6 +320,11 @@ img {
 
 .section-team-title {
   margin: 0 auto;
+}
+
+.features {
+  /* Added after homework control system */
+  padding: 120px 0;
 }
 
 .features-list {
@@ -344,7 +374,7 @@ img {
 }
 
 .section-whatwedo-title {
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .section-team-title {
   padding-top: 120px;
@@ -395,9 +425,8 @@ img {
 }
 
 .staff {
-  margin-top: 32px;
-  margin-bottom: 32px;
-  padding-left: 16px;
+  /* Added after homework control system */
+  padding: 32px 0;
 }
 .section-main {
   padding-bottom: 120px;

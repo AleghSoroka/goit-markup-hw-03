@@ -183,16 +183,6 @@ img {
   background-color: var(--ocean);
 }
 
-.card-title {
-  color: var(--navy-blue);
-  font-family: Roboto, sans-serif;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2em;
-  letter-spacing: 0.02em;
-  text-align: center;
-}
-
 .additional-description {
   color: var(--slate);
   font-family: Roboto, sans-serif;
@@ -309,24 +299,26 @@ img {
 
 .features-list {
   display: flex;
-  gap: 24px;
+  justify-content: space-between;
   margin-bottom: 120px;
-  flex-basis: calc((100% - var(--indent) * var(--items)) / var (--items));
+  gap: 24px;
 }
 
 .features-list-item {
-  --indent: 24px;
-  --items: 4;
+  flex-basis: 264px;
 }
 
-.features-list-item.card-title {
-  margin-bottom: 20px;
-}
 .card-title {
-  margin-bottom: 8px;
+  color: var(--navy-blue);
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2em;
+  letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 8px;
 }
-.additional-description {
+.card-title.leftalign {
   text-align: left;
 }
 

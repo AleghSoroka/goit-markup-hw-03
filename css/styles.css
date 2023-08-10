@@ -148,7 +148,7 @@ img {
 
 /* Email & Phone */
 .contact-list {
-  display: inline-flex;
+  display: flex;
   gap: 40px;
 }
 .contact-link {

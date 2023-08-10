@@ -100,11 +100,15 @@ img {
   display: flex;
   font-style: normal;
 }
+.header-global {
+  /* Added after homework control system */
+  border-bottom: 1px solid #e7e9fc;
+  display: flex;
+}
+
 .header-nav {
   display: flex;
   align-items: center;
-  /* Added after homework control system */
-  border-bottom: 1px solid #e7e9fc;
 }
 .header-logo {
   display: block;

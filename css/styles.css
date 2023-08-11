@@ -70,9 +70,8 @@ img {
   margin-left: auto;
   margin-right: auto;
   /* Temporary outline */
-  /* outline: 2px solid red;
+  outline: 2px solid red;
   outline-offset: -2px;
-*/
 }
 .visually-hidden {
   position: absolute;
@@ -100,6 +99,7 @@ img {
   display: flex;
   gap: 40px;
   font-style: normal;
+  align-items: center;
 }
 .header-global {
   /* Added after homework control system */
@@ -153,6 +153,7 @@ img {
   display: flex;
   gap: 40px;
 }
+
 .contact-link {
   display: block;
   padding-top: 24px;
@@ -259,7 +260,7 @@ img {
 }
 
 .container.hero {
-  height: 600px;
+  /* height: 600px; */
   /* margin-bottom: 188px; */
 }
 .hero-section {
@@ -276,8 +277,6 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--white);
-  width: 496px;
-  padding-top: 188px;
   padding-bottom: 48px;
   margin: 0 auto;
   /* Added after homework control system */

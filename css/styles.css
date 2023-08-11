@@ -171,6 +171,10 @@ img {
   color: var(--ocean);
 }
 
+.buttons-list-item {
+  border: 1px solid var(--cornflower);
+}
+
 .filter-button {
   color: var(--iris);
   background-color: var(--cloud);
@@ -183,7 +187,7 @@ img {
   display: block;
   border: 1px solid var(--cornflower);
   border-radius: 4px;
-  padding: 12px, 24px, 12px, 24px;
+  padding: 12px 24px 12px;
 }
 
 .filter-button:hover,

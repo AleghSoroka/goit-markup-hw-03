@@ -64,7 +64,7 @@ img {
 /* reset end */
 
 .container {
-  max-width: 1158px;
+  width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -100,8 +100,12 @@ img {
   /* Added after homework control system */
   border-bottom: 1px solid #e7e9fc;
   display: flex;
-  width: 1158px;
+  /* width: 1158px; */
   padding: 0;
+}
+
+.header-div {
+  display: flex;
 }
 
 .header-nav {

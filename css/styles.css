@@ -172,6 +172,7 @@ img {
 }
 
 .filter-button {
+  border: 1px solid var(--cornflower);
   color: var(--iris);
   background-color: var(--cloud);
   font-family: Roboto, sans-serif;
@@ -180,8 +181,6 @@ img {
   line-height: 1.5em;
   letter-spacing: 0.04em;
   text-align: center;
-  /* Added after homework control system */
-  border: 1px solid var(--cornflower);
 }
 
 .filter-button:hover,

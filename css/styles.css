@@ -150,14 +150,13 @@ img {
 
 /* Email & Phone */
 .contact-list {
-  font-style: normal;
-  align-items: center;
   display: flex;
   gap: 40px;
+  font-style: normal;
+  align-items: center;
 }
 
 .contact-link {
-  display: block;
   padding-top: 24px;
   padding-bottom: 24px;
   font-style: normal;

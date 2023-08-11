@@ -402,7 +402,9 @@ img {
   display: flex;
   gap: 24px;
   justify-content: center;
-  margin: 96px auto 72px auto;
+  /* margin: 96px auto 72px auto; */
+  /* And we use instead: */
+  margin-bottom: 72px;
 }
 
 .filter-button {
@@ -441,5 +443,6 @@ img {
 }
 .section-main {
   /* Modified after homework control system */
-  padding: 96px 0 120px 0;
+  padding-top: 96px;
+  padding-bottom: 120px;
 }

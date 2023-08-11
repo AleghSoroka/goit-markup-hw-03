@@ -175,7 +175,6 @@ img {
 }
 
 .filter-button {
-  border: 1px solid var(--cornflower);
   color: var(--iris);
   background-color: var(--cloud);
   font-family: Roboto, sans-serif;
@@ -184,10 +183,15 @@ img {
   line-height: 1.5em;
   letter-spacing: 0.04em;
   text-align: center;
+  display: block;
+  border: 1px solid var(--cornflower);
+  border-radius: 4px;
+  padding: 12px, 24px, 12px, 24px;
 }
 
 .filter-button:hover,
 .filter-button:focus {
+  border: 1px solid var(--cornflower);
   cursor: pointer;
   color: var(--white);
   background-color: var(--ocean);
@@ -407,14 +411,6 @@ img {
   margin-bottom: 72px;
 }
 
-.filter-button {
-  display: block;
-  padding: 12px 24px;
-  border: 1px;
-  border-radius: 4px;
-  padding: 12px, 24px, 12px, 24px;
-}
-
 .image-list {
   display: flex;
   flex-wrap: wrap;
@@ -423,14 +419,12 @@ img {
   justify-content: space-between;
 }
 .comments {
-  margin-top: 32px;
-  margin-bottom: 32px;
-  padding-left: 16px;
+  padding: 32px 16px;
+  border: 1px solid var(--cornflower);
 }
 
 .image-list-item {
   box-sizing: border-box;
-  /* border: 1px solid var(--cornflower); */
 }
 
 .section-team {

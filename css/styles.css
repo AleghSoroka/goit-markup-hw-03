@@ -334,10 +334,6 @@ img {
   margin: 0 auto;
 }
 
-.section-team-title {
-  margin: 0 auto;
-}
-
 .features {
   /* Added after homework control system */
   padding: 120px 0;
@@ -391,10 +387,6 @@ img {
 
 .section-whatwedo-title {
   margin-bottom: 72px;
-}
-.section-team-title {
-  padding-top: 120px;
-  padding-bottom: 72px;
 }
 
 .ourteam-list {

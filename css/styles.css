@@ -152,8 +152,6 @@ img {
 .contact-list {
   display: flex;
   gap: 40px;
-  font-style: normal;
-  align-items: center;
 }
 
 .contact-link {

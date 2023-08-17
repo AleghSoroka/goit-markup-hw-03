@@ -24,8 +24,6 @@
 }
 
 .body {
-  width: 1440px;
-  height: 2592px;
   font-family: Roboto, sans-serif;
   color: var(--slate);
   background-color: var(--white);
@@ -92,7 +90,7 @@ img {
 }
 
 .card-set.item {
-  flex-basis: calc(100% - var(--gap) * (var(--items - 1)) / var(--items));
+  flex-basis: calc(100% - var(--gap) * (var(--items) - 1) / var(--items));
 }
 /* ============================================= */
 
@@ -100,6 +98,7 @@ img {
   /* Added after homework control system */
   border-bottom: 1px solid #e7e9fc;
   display: flex;
+  justify-content: space-between;
   /* width: 1158px; */
   padding: 0;
 }
@@ -107,6 +106,7 @@ img {
 .header-div {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .header-nav {
@@ -121,7 +121,6 @@ img {
 .nav-list {
   display: flex;
   gap: 40px;
-  margin-right: 332px;
 }
 
 .logo {
@@ -214,12 +213,19 @@ img {
 
 .footer {
   background-color: var(--navy-blue);
-  /* Added after homework control system */
   padding: 100px 0;
 }
+
+.footer-container {
+  display: block;
+  width: 264px;
+  padding: 0;
+}
+
 .footer-studio {
   color: var(--cloud);
 }
+
 .footer-text {
   color: var(--cloud);
   font-family: Roboto, sans-serif;
@@ -228,14 +234,9 @@ img {
   line-height: 1.5em;
   letter-spacing: 0.02em;
   text-align: left;
-  width: 264px;
-  padding-top: 17.5px;
-  padding-bottom: 100px;
 }
+
 .footer-logo {
-  display: block;
-  padding-top: 101.5px;
-  /* Added after homework control system */
   display: inline-block;
   margin-bottom: 16px;
 }
@@ -254,7 +255,7 @@ img {
   padding: 16px 32px;
   /* Added after homework control system */
   min-width: 169px;
-  height: 56px;
+  min-height: 56px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -268,13 +269,13 @@ img {
 }
 
 .container.hero {
-  /* height: 600px; */
-  /* margin-bottom: 188px; */
 }
 .hero-section {
   background-color: var(--grey);
+  margin: 0 auto;
+  /* margin-bottom: 60px; */
   /* Added after homework control system */
-  padding: 188px 0;
+  padding: 188px;
 }
 
 .hero-caption {
@@ -291,8 +292,7 @@ img {
   max-width: 496px;
 }
 .section-whatwedo {
-  /* Added after homework control system */
-  padding-bottom: 120px;
+  padding: 60px 0 120px;
 }
 
 .section-whatwedo-title {
@@ -336,15 +336,13 @@ img {
   margin: 0 auto;
 }
 
-.features {
-  /* Added after homework control system */
-  padding: 120px 0;
+.section-features {
+  padding: 120px 0 60px;
 }
 
 .features-list {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 120px;
   gap: 24px;
 }
 
@@ -368,6 +366,7 @@ img {
 
 .application-type {
   text-align: center;
+  color: var(--slate);
 }
 
 .working-title {
@@ -425,6 +424,7 @@ img {
 
 .section-team {
   padding-bottom: 120px;
+  background-color: var(--cloud);
 }
 
 .staff {

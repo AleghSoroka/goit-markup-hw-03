@@ -216,12 +216,6 @@ img {
   padding: 100px 0;
 }
 
-.footer-container {
-  display: block;
-  width: 264px;
-  padding: 0;
-}
-
 .footer-studio {
   color: var(--cloud);
 }
@@ -234,6 +228,7 @@ img {
   line-height: 1.5em;
   letter-spacing: 0.02em;
   text-align: left;
+  max-width: 264px;
 }
 
 .footer-logo {
@@ -275,7 +270,7 @@ img {
   margin: 0 auto;
   /* margin-bottom: 60px; */
   /* Added after homework control system */
-  padding: 188px;
+  padding: 188px 0;
 }
 
 .hero-caption {
@@ -337,7 +332,7 @@ img {
 }
 
 .section-features {
-  padding: 120px 0 60px;
+  padding: 120px 0;
 }
 
 .features-list {

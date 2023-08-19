@@ -68,8 +68,8 @@ img {
   margin-left: auto;
   margin-right: auto;
   /* Temporary outline */
-  /* outline: 2px solid red; */
-  /* outline-offset: -2px; */
+  outline: 2px solid red;
+  outline-offset: -2px;
 }
 .visually-hidden {
   position: absolute;
@@ -95,11 +95,9 @@ img {
 /* ============================================= */
 
 .header-global {
-  /* Added after homework control system */
   border-bottom: 1px solid #e7e9fc;
   display: flex;
   justify-content: space-between;
-  /* width: 1158px; */
   padding: 0;
 }
 
@@ -197,7 +195,6 @@ img {
   cursor: pointer;
   color: var(--white);
   background-color: var(--ocean);
-  /* Added after homework control system */
   border: 1px solid transparent;
 }
 
@@ -247,8 +244,6 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding: 16px 32px;
-  /* Added after homework control system */
   min-width: 169px;
   min-height: 56px;
   border: none;
@@ -268,8 +263,6 @@ img {
 .hero-section {
   background-color: var(--grey);
   margin: 0 auto;
-  /* margin-bottom: 60px; */
-  /* Added after homework control system */
   padding: 188px 0;
 }
 
@@ -281,9 +274,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--white);
-  padding-bottom: 48px;
-  margin: 0 auto;
-  /* Added after homework control system */
+  margin: 0 auto 48px;
   max-width: 496px;
 }
 .section-whatwedo {
@@ -299,12 +290,10 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--navy-blue);
-  /* Added after homework control system */
   margin-bottom: 72px;
 }
 .section-team {
   background-color: var(--cloud);
-  /* Added after homework control system */
   padding: 120px 0;
 }
 .section-team-title {
@@ -316,7 +305,6 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--grey);
-  /* Added after homework control system */
   margin-bottom: 72px;
 }
 .personal-card {
@@ -352,20 +340,17 @@ img {
   font-weight: 500;
   line-height: 1.2em;
   letter-spacing: 0.02em;
-  text-align: center;
   margin-bottom: 8px;
-}
-.card-title.leftalign {
+
+  /* text-align: center; */
   text-align: left;
 }
 
-.application-type {
-  text-align: center;
+.card-text {
   color: var(--slate);
 }
 
-.working-title {
-  display: block;
+.alcenter {
   text-align: center;
 }
 
@@ -378,7 +363,6 @@ img {
   display: flex;
   gap: 24px;
   justify-content: center;
-  padding-bottom: 120px;
 }
 
 .section-whatwedo-title {
@@ -395,8 +379,6 @@ img {
   display: flex;
   gap: 24px;
   justify-content: center;
-  /* margin: 96px auto 72px auto; */
-  /* And we use instead: */
   margin-bottom: 72px;
 }
 
@@ -411,6 +393,7 @@ img {
   padding: 32px 16px;
   border: 1px solid var(--cornflower);
   border-top: none;
+  justify-items: left;
 }
 
 .image-list-item {
@@ -423,11 +406,10 @@ img {
 }
 
 .staff {
-  /* Added after homework control system */
   padding: 32px 0;
 }
+
 .section-main {
-  /* Modified after homework control system */
   padding-top: 96px;
   padding-bottom: 120px;
 }

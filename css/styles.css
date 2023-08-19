@@ -341,9 +341,6 @@ img {
   line-height: 1.2em;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
-
-  /* text-align: center; */
-  text-align: left;
 }
 
 .card-text {
@@ -351,7 +348,7 @@ img {
 }
 
 .alcenter {
-  text-align: ;
+  text-align: center;
 }
 
 .site-navigation {
